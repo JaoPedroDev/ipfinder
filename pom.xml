@@ -29,7 +29,7 @@
                 <version>3.8.0</version>
                 <configuration>
                     <release>17</release>
-                    <mainClass>com.ipfinder.App</mainClass>
+                    <mainClass>com.ipfinder.Main</mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -42,7 +42,7 @@
                         <!-- Usage: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.ipfinder.App</mainClass>
+                            <mainClass>com.ipfinder.Main</mainClass>
                         </configuration>
                     </execution>
                 </executions>
